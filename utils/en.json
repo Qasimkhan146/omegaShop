@@ -1,0 +1,790 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Shop", "href": "/shop" },
+      { "label": "Support", "href": "/support" },
+      { "label": "FAQs", "href": "/faqs" },
+      { "label": "Report an Issue", "href": "/#report" }
+    ],
+    "track": "Track",
+    "text": "Review and sign transactions from a single secure screen with ",
+    "span": "OmegaShop"
+  },
+  "complaintModal": {
+    "title": "Report an Issue with your Product",
+    "subtitle": "We’re sorry to hear you’re facing an issue. Please fill the form below and we’ll assist you.",
+    "formTitle": "Complaint Form",
+    "ComplaintForm": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter last name",
+      "email": "Email",
+      "emailPlaceholder": "Enter email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter phone number",
+      "orderId": "Order ID",
+      "orderIdPlaceholder": "Enter Order ID",
+      "productName": "Product Name",
+      "productNamePlaceholder": "Enter product name",
+      "issueCategory": "Issue Category",
+      "description": "Describe your issue",
+      "descriptionPlaceholder": "Describe your issue",
+      "uploadImages": "Upload Image",
+      "attachImages": "Attach Images",
+      "clickDrag": "Click to add or drag & drop images",
+      "preferredSolution": "Preferred Solution",
+      "submit": "Submit Complaint",
+      "confirmation": "Once you submit your complaint, you’ll receive a confirmation email. Our team will review your request and reach out within 24-48 hours with the next steps."
+    },
+    "categories": [
+      "Damaged Product",
+      "Wrong Item Received",
+      "Missing Parts",
+      "Late Delivery",
+      "Quality Issue",
+      "Other"
+    ],
+    "solutions": ["Refund", "Replacement", "Technical Support", "Other"],
+    "errors": {
+      "firstName": "First name is required.",
+      "lastName": "Last name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "phoneRequired": "Phone number is required.",
+      "phoneInvalid": "Phone IS required.",
+      "orderId": "Order ID is required.",
+      "productName": "Product Name is required.",
+      "description": "Please describe the issue.",
+      "images": "Please upload at least one image.",
+      "descriptionRequiredIfNoCategory": "Description is required"
+    },
+    "toasts": {
+      "success": "Complaint Submitted Successfully ✅",
+      "error": "Something went wrong ❌"
+    }
+  },
+  "hero": {
+    "preview": "Trusted by 50,000+ Users Worldwide",
+    "titleStart": "Secure Your \n",
+    "titleEnd": "Crypto Future",
+    "desc": "Premium hardware wallets and titanium seed phrase recovery solutions. Keep your cryptocurrency safe with military-grade security that never compromises on usability.",
+    "btn1": "Shop Now",
+    "btn2": "Learn More",
+    "military": "Military Grade",
+    "security": "Security",
+    "offline": "Offline",
+    "storage": "Storage"
+  },
+  "panel": {
+    "titleStart": "Physically secure your transactions with ",
+    "titleEnd": "Omega crypto wallets",
+    "desc": "Keep your private keys offline and confirm every transaction on your secure hardware device.",
+    "btn1": "Learn More"
+  },
+  "products": {
+    "sectionTitle": "Our Premium Products",
+    "sectionSubtitle": "Complete security solutions for your cryptocurrency",
+    "add": "Add to Cart",
+    "learn": "Learn More",
+    "added": "Product added to cart",
+    "alreadyincart": "Product Already in Cart",
+    "included": "VAT included",
+    "shipping": "Free worldwide shipping",
+    "inStock": "In Stock",
+    "outstock": "Out of Stock",
+    "exceed": "Quantity exceeds available stock",
+    "products": [
+      {
+        "name": "Omega Hardware Wallet",
+        "badge": "Best Seller",
+        "description": "Confirm transactions on a secure element and keep keys offline. Pairs perfectly with the Omega Seed for long-term recovery.",
+        "features": [
+          "Supports 1000+ cryptocurrencies",
+          "Secure element chip protection",
+          "PIN & passphrase protection",
+          "OLED display for verification"
+        ],
+        "image": "/images/product.svg"
+      },
+      {
+        "name": "Omega Seedphrase",
+        "badge": "Premium",
+        "description": "Titanium recovery solution designed for long-term protection of your Secret Recovery Phrase. Indestructible backup for ultimate peace of mind.",
+        "features": [
+          "Fire, water & corrosion resistant",
+          "Titanium durability – no ink to fade",
+          "Fully offline self-custody",
+          "Compatible with standard BIP39 phrases"
+        ],
+        "image": "/images/product.svg",
+        "buttons": [
+          { "label": "Add to Cart", "type": "primary" },
+          { "label": "Learn More", "type": "secondary" }
+        ]
+      }
+    ],
+    "highlightSection": {
+      "image": "/images/product.svg",
+      "text": "Physically secure your transactions with \n",
+      "highlightText": "Omega crypto wallets",
+      "icon": "/images/empty-lock.svg"
+    }
+  },
+  "carousel": {
+    "title": "Thousands of supported coins and tokens",
+    "desc": "Bitcoin, Ethereum, and 1000+ other cryptocurrencies supported",
+    "description": "Omega supports 1,000+ assets. Here are some of the most popular networks & tokens.",
+    "btn1": "See All"
+  },
+  "WhyOmega": {
+    "title": "Why Choose Omega?",
+    "desc": "Advanced security features designed for the modern crypto investor",
+    "WhyOmegaCards": [
+      {
+        "icon": "/images/shield.svg",
+        "heading": "Military-Grade Security",
+        "desc": "Advanced encryption and secure element technology protect your assets from any threat"
+      },
+      {
+        "icon": "/images/lock.svg",
+        "heading": "Complete Offline Storage",
+        "desc": "Keep your private keys completely offline and away from hackers"
+      },
+      {
+        "icon": "/images/flash.svg",
+        "heading": "Intuitive Interface",
+        "desc": "Intuitive interface makes managing your crypto simple, secure, and stress-free"
+      }
+    ]
+  },
+  "panel2": {
+    "frame": "Omega Recover",
+    "title": "Never lose access to your digital assets",
+    "desc": "Secure peace of mind with Omega Recover. Restore access to your crypto wallet in case of a lost, damaged, or out of reach Secret Recovery Phrase.",
+    "btn1": "Learn More"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "desc": "Everything you need to know about Omega products",
+    "items": [
+      {
+        "question": "What is a hardware wallet?",
+        "answer": "A hardware wallet is a physical device that stores your cryptocurrency private keys offline, providing the highest level of security for your digital assets."
+      },
+      {
+        "question": "How do you ensure the accuracy and safety of your AI models?",
+        "answer": "We ensure accuracy and safety by training on diverse data, applying strict safeguards, and continuously improving through testing and feedback."
+      },
+      {
+        "question": "Which cryptocurrencies are supported?",
+        "answer": "We support major cryptocurrencies including Bitcoin, Ethereum, and other widely used digital assets."
+      },
+      {
+        "question": "Is my crypto safe if I lose my hardware wallet?",
+        "answer": "Yes, your crypto is safe as long as you have your recovery phrase, since you can restore access on a new wallet."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping typically takes 3 to 7 business days, depending on your location."
+      }
+    ],
+    "dicover": "Discover what \n security feels like",
+    "btn1": "Shop Our Wallets"
+  },
+  "newsletter": {
+    "title": "Subscribe to our Newsletter",
+    "desc": "New coins supported, blog updates and exclusive offers directly in your inbox",
+    "placeholder": "Enter Your Email",
+    "btn1": "Subscribe to Newsletter",
+    "explaination": "Your email address will only be used to send you our newsletter, as well as updates and offers. You can unsubscribe at any time using the link \n included in the newsletter.",
+    "link": "Learn more about how we manage your data and your rights."
+  },
+  "footer": {
+    "description": "Secure cryptocurrency storage solutions for the modern investor.",
+    "columns": [
+      {
+        "title": "PRODUCTS",
+        "links": [
+          { "label": "Seedphrase", "href": "/shop?id=2" },
+          { "label": "Hardware Wallet", "href": "/shop?id=1" }
+        ]
+      },
+      {
+        "title": "RESOURCES",
+        "links": [
+          { "label": "Support", "href": "/support" },
+          { "label": "FAQ", "href": "/faqs" }
+        ]
+      },
+      {
+        "title": "COMPANY",
+        "links": [
+          { "label": "Contact", "href": "/support#contact" },
+          { "label": "Privacy Policy", "href": "/privacy-policy" },
+          { "label": "Terms of Services", "href": "/terms-and-condition" }
+        ]
+      }
+    ],
+    "copyright": "Copyright © 2025 Omega wallet. All rights reserved."
+  },
+  "review": {
+    "titleStart": "Join",
+    "titleSpan": "Omega's \n",
+    "titleEnd": "secure ecosystem",
+    "trusted": "Trusted by over 7 million customers"
+  },
+  "shop": {
+    "section1": {
+      "bestSeller": "Best Seller",
+      "review": "(2,847 reviews)",
+      "heading": "Omega Hardware Wallet",
+      "description": "The ultimate cryptocurrency security device. Confirm transactions on a secure element and keep your private keys completely offline. Military-grade protection for your digital assets.",
+      "features": "Key Features:",
+      "list": [
+        "Supports 1000+ cryptocurrencies and tokens",
+        "Secure Element chip with CC EAL5+ certification",
+        "OLED display for transaction verification",
+        "Compatible with 50+ wallet applications"
+      ],
+      "price": "$149.99",
+      "included": "VAT included",
+      "shipping": "Free worldwide shipping",
+      "inStock": "In Stock",
+      "outstock": "Out of Stock",
+      "exceed": "Quantity exceeds available stock",
+      "cart": "Add to Cart",
+      "added": "Product added to cart",
+      "alreadyincart": "Product Already in Cart"
+    },
+    "panel": {
+      "highlights": [
+        {
+          "value": "2 Year",
+          "label": "Warranty"
+        },
+        {
+          "value": "3-7 Days",
+          "label": "Shipping"
+        },
+        {
+          "value": "24/7",
+          "label": "Support"
+        }
+      ]
+    },
+    "details": {
+      "title": "Product Details",
+      "description": "The Omega Hardware Wallet Standard provides cold storage security for your digital assets.",
+      "tabs": [
+        {
+          "label": "Features",
+          "content": [
+            "Cold storage security",
+            "Supports 1000+ cryptocurrencies",
+            "PIN protection with anti-brute force",
+            "24-word recovery seed",
+            "USB-C connectivity",
+            "Compact and portable design",
+            "Free shipping worldwide",
+            "2-year warranty"
+          ]
+        },
+        {
+          "label": "Specifications",
+          "content": [
+            {
+              "spec": "Dimensions",
+              "value": "98 x 60 x 10 mm"
+            },
+            {
+              "spec": "Weight",
+              "value": "45g"
+            },
+            {
+              "spec": "Display",
+              "value": "2.4\" OLED display"
+            },
+            {
+              "spec": "Connectivity",
+              "value": "USB-C"
+            },
+            {
+              "spec": "Security",
+              "value": "CC EAL5+ certified secure element"
+            },
+            {
+              "spec": "Battery",
+              "value": "Built-in rechargeable battery"
+            },
+            {
+              "spec": "Compatibility",
+              "value": "Windows, macOS, Linux, Android, iOS"
+            },
+            {
+              "spec": "Warranty",
+              "value": "2 years"
+            }
+          ]
+        }
+      ]
+    },
+    "backup": {
+      "title": "SLIP39 & the 3-2-1 backup method",
+      "desc": "Omega Seed supports both standard BIP39 seeds and SLIP39 (Shamir) shares. Combine this with the 3-2-1 rule for robust disaster recovery.",
+      "card1title": "What is SLIP39?",
+      "card1desc": "SLIP39 (Shamir's Secret-Sharing for mnemonics) splits your secret into multiple shares. A threshold of shares must be combined to reconstruct the wallet — e.g., 3 out of 5.",
+      "list1": [
+        "Distribute shares across locations or trusted parties.",
+        "Loses of some shares do not compromise funds.",
+        "Store each share on a separate Omega Seed plate."
+      ],
+      "card2title": "The 3-2-1 rule",
+      "list2": [
+        "With at least one backup stored off-site",
+        "On at least two different media or locations.",
+        "Keep three backups (e.g., one BIP39 plate + two SLIP39 shares)."
+      ]
+    },
+    "section2": {
+      "title": "Explore Omega Seedphrase",
+      "desc": "Complete your setup with our handcrafted leather case featuring RFID blocking technology.",
+      "heading": "Omega Seedphrase",
+      "description": "Titanium recovery solution designed for long - term protection of your Secret Recovery Phrase.",
+      "add": "Add to Cart",
+      "learn": "Learn More",
+      "details": [
+        {
+          "question": "What is a seed phrase?",
+          "answer": "A seed phrase is a human-readable list of 12-24 words that encodes the master secret of your wallet. With these words, you can recreate all private keys and restore access to your funds. Anyone who has the phrase can move your assets — keep it offline and never share it."
+        },
+        {
+          "question": "How it works with Omega",
+          "answer": "Your Omega Hardware Wallet generates the seed offline. You confirm and store it securely. If you ever need to restore, enter the words into any BIP39‑compatible wallet (12/24 words) to regain access.",
+          "list": [
+            "Fire, water and corrosion resistance far beyond paper or plastic.",
+            "Titanium durability — no ink to fade, no lamination to fail.",
+            "Fully offline self-custody; no cloud or online exposure.",
+            "Compatible with standard BIP39 12/24-word phrases."
+          ]
+        }
+      ],
+      "buttons": [
+        { "label": "Add to Cart", "type": "primary" },
+        { "label": "Learn More", "type": "secondary" }
+      ]
+    }
+  },
+  "support": {
+    "title": "How can we help you?",
+    "desc1": "Get the support you need for your Omega products. Our expert team is here to help you secure your cryptocurrency with confidence.",
+    "SupportCards": [
+      {
+        "icon": "/images/mail.svg",
+        "heading": "Email Support",
+        "desc": "Send us a detailed message",
+        "timing": "Response within 2 hours",
+        "btn": "Send Email",
+        "url": "https://mail.google.com/mail/?view=cm&fs=1&to=abdulengineer321@gmail.com"
+      },
+      {
+        "icon": "/images/phone.svg",
+        "heading": "Phone Support",
+        "desc": "Speak directly with our experts",
+        "timing": "Mon-Fri 9AM-6PM EST",
+        "btn": "Call Now",
+        "url": "tel:+923065805864"
+      }
+    ],
+    "contact": "Contact Us",
+    "desc2": "Can't find what you're looking for? Send us a message and we'll get back to you.",
+    "form": {
+      "getstarted": "Get Started Today",
+      "desc3": "Send us a message and we'll respond within 2 hours during business hours",
+      "name": "Name",
+      "email": "Email Address",
+      "phone": "Phone number",
+      "subject": "Subject",
+      "message": "Tell us about your message",
+      "button": "Send Message",
+      "toast": {
+        "sending": "Sending message...",
+        "success": "Message sent successfully ✅",
+        "error": "Failed to send message ❌",
+        "network": "Network error. Try again later."
+      }
+    },
+    "dicover": "Discover what \n security feels like",
+    "btn1": "Shop Our Wallets"
+  },
+  "faqPage": {
+    "heading": "Frequently Asked Questions",
+    "desc": "Everything you need to know about Omega products",
+    "items": [
+      {
+        "question": "What is a hardware wallet?",
+        "answer": "A hardware wallet is a physical device that stores your cryptocurrency private keys offline, providing the highest level of security for your digital assets."
+      },
+      {
+        "question": "How do you ensure the accuracy and safety of your AI models?",
+        "answer": "We ensure accuracy and safety by training on diverse data, applying strict safeguards, and continuously improving through testing and feedback."
+      },
+      {
+        "question": "Which cryptocurrencies are supported?",
+        "answer": "We support major cryptocurrencies including Bitcoin, Ethereum, and other widely used digital assets."
+      },
+      {
+        "question": "Is my crypto safe if I lose my hardware wallet?",
+        "answer": "Yes, your crypto is safe as long as you have your recovery phrase, since you can restore access on a new wallet."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping typically takes 3 to 7 business days, depending on your location."
+      },
+      {
+        "question": "How do you ensure the accuracy and safety of your AI models?",
+        "answer": "We ensure accuracy and safety by training on diverse data, applying strict safeguards, and continuously improving through testing and feedback."
+      },
+      {
+        "question": "Which cryptocurrencies are supported?",
+        "answer": "We support major cryptocurrencies including Bitcoin, Ethereum, and other widely used digital assets."
+      },
+      {
+        "question": "Is my crypto safe if I lose my hardware wallet?",
+        "answer": "Yes, your crypto is safe as long as you have your recovery phrase, since you can restore access on a new wallet."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping typically takes 3 to 7 business days, depending on your location."
+      },
+      {
+        "question": "How do you ensure the accuracy and safety of your AI models?",
+        "answer": "We ensure accuracy and safety by training on diverse data, applying strict safeguards, and continuously improving through testing and feedback."
+      },
+      {
+        "question": "Which cryptocurrencies are supported?",
+        "answer": "We support major cryptocurrencies including Bitcoin, Ethereum, and other widely used digital assets."
+      },
+      {
+        "question": "Is my crypto safe if I lose my hardware wallet?",
+        "answer": "Yes, your crypto is safe as long as you have your recovery phrase, since you can restore access on a new wallet."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping typically takes 3 to 7 business days, depending on your location."
+      }
+    ],
+    "dicover": "Discover what \n security feels like",
+    "btn1": "Shop Our Wallets"
+  },
+  "schema": {
+    "name": "Name is required",
+    "email": "Invalid email address",
+    "phone": "Phone number is required",
+    "subject": "Subject is required",
+    "message": "Message is required"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "You cart is empty",
+    "add": "Add some products to get started",
+    "continue": "Continue Shopping",
+    "checkout": "Proceed to checkout",
+    "discount": "Discount:",
+    "subtotal": "Subtotal:",
+    "total": "Total:",
+    "price": "Price:",
+    "final": "Final:",
+    "discounts": "Discount",
+    "clear": "Clear Cart",
+    "shipping": "Free worldwide shipping on all orders",
+    "exceed": "Quantity exceeds available stock"
+  },
+  "privacyPolicy": {
+    "heading": "Privacy Policy",
+    "description": "How we collect, use and protect your information.",
+    "publishedDate": "Last Updated:April 14,2023",
+    "sections": [
+      {
+        "title": "Introduction",
+        "desc": "Omega Wallet ('we,' 'our,' or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our software wallet, hardware wallet, website, or any related services (collectively, the 'Services'). \n\n Please read this Privacy Policy carefully. By accessing or using our Services, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy."
+      },
+      {
+        "title": "Information We Collect",
+        "categories": {
+          "Personal Information": {
+            "desc": "We may collect personal information that you voluntarily provide to us when you:",
+            "points": [
+              "Register for an account",
+              "Sign up for our newsletter",
+              "Contact our support team",
+              "Participate in promotions or surveys",
+              "Make a purchase"
+            ],
+            "note": "This information may include your name, email address, phone number, mailing address, and payment information"
+          },
+          "Non-Personal Information": {
+            "desc": "We may also collect non-personal information about how you interact with our Services, including:",
+            "points": [
+              "Device information (type, operating system, browser)",
+              "IP address",
+              "Usage data (pages visited, time spent)",
+              "Referral sources"
+            ]
+          },
+          "How We Use Your Information": {
+            "desc": "We may use the information we collect for various purposes, including to:",
+            "points": [
+              "Provide, maintain, and improve our Services",
+              "Process transactions and send related information",
+              "Send administrative information, such as updates or security alerts",
+              "Respond to your comments, questions, and requests",
+              "Send promotional communications, such as special offers or newsletters",
+              "Monitor and analyze trends, usage, and activities",
+              "Detect, prevent, and address technical issues",
+              "Protect against fraudulent, unauthorized, or illegal activity"
+            ]
+          },
+          "Wallet Privacy and Cryptocurrency Transactions": [
+            "Omega Wallet is designed with your privacy in mind. We do not have access to your private keys, recovery phrases, or the ability to initiate transactions on your behalf. Your private keys are stored locally on your device (for software wallets) or on the secure element of your hardware wallet. \n\n While blockchain transactions are publicly visible, we do not collect or store information that links your identity to your blockchain addresses unless you explicitly provide this information to us."
+          ],
+          "Cookies and Tracking Technologies": [
+            "We use cookies and similar tracking technologies to track activity on our website and hold certain information. Cookies are files with a small amount of data that may include an anonymous unique identifier.\n\n You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Services."
+          ],
+          "Disclosure of Your Information": {
+            "desc": "We may disclose your information in the following situations:",
+            "points": [
+              "Service Providers: We may share your information with third-party vendors, service providers, and other business partners who perform services on our behalf.",
+              "Business Transfers: If we are involved in a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction.",
+              "Legal Requirements: We may disclose your information if required to do so by law or in response to valid requests by public authorities.",
+              "Protection of Rights: We may disclose your information to protect and defend our rights, property, or safety, or those of our users or third parties."
+            ]
+          },
+          "Data Security": [
+            "We implement appropriate technical and organizational measures to protect the security of your personal information. However, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure."
+          ],
+          "Your Rights": {
+            "desc": "Depending on your location, you may have certain rights regarding your personal information, including:",
+            "points": [
+              "The right to access the personal information we have about you",
+              "The right to request correction of inaccurate information",
+              "The right to request deletion of your personal information",
+              "The right to object to or restrict processing of your personal information",
+              "The right to data portability",
+              "The right to withdraw consent"
+            ],
+            "note": "To exercise these rights, please contact us using the information provided in the 'Contact Us' section below."
+          },
+          "Children's Privacy": [
+            "Our Services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us."
+          ],
+          "Changes to This Privacy Policy": [
+            "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last Updated' date. You are advised to review this Privacy Policy periodically for any changes."
+          ]
+        }
+      },
+      {
+        "title": "Contact Us",
+        "desc": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "Email: dennis@omegawallet.shop",
+        "address": "Address: 123 Blockchain Street, San Francisco, CA 94103, United States",
+        "btn": "Contact Us →"
+      }
+    ]
+  },
+  "termsAndCondition": {
+    "heading": "Terms of Services",
+    "description": "The rules and guidelines for using Omega Wallet",
+    "publishedDate": "Last Updated:April 14,2023",
+    "sections": [
+      {
+        "title": "1. Introduction and Acceptance",
+        "desc": "Welcome to Omega Wallet. These Terms of Service ('Terms') govern your access to and use of the Omega Wallet software application, hardware devices, website, and related services (collectively, the 'Services') provided by Omega Wallet ('we,' 'our,' or 'us'). \n\nBy accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the Services.."
+      },
+      {
+        "title": "2. Eligibility",
+        "desc": "You must be at least 18 years old to use our Services. By using our Services, you represent and warrant that you meet this requirement and that you have the right, authority, and capacity to enter into these Terms.\n\n If you are using the Services on behalf of an entity, organization, or company, you represent and warrant that you have the authority to bind that organization to these Terms and you agree to be bound by these Terms on behalf of that organization."
+      },
+      {
+        "title": "3. Account Registration and Security",
+        "desc": "Some features of our Services may require you to register for an account. When you register, you agree to provide accurate, current, and complete information and to update this information to maintain its accuracy. \n\n You are responsible for maintaining the confidentiality of your account credentials, including your password and recovery phrase. You agree not to share your account credentials with any third party. You are solely responsible for all activities that occur under your account. \n\n You must immediately notify us of any unauthorized use of your account or any other breach of security. We cannot and will not be liable for any loss or damage arising from your failure to comply with these requirements."
+      },
+      {
+        "title": "4. Wallet Services",
+        "desc": "Omega Wallet provides software and hardware wallet solutions for storing, sending, and receiving cryptocurrencies. Our Services allow you to:",
+        "points": [
+          "Create and manage cryptocurrency wallets",
+          "Store private keys securely",
+          "Send and receive cryptocurrency transactions",
+          "View transaction history and balances",
+          "Exchange cryptocurrencies (where available)"
+        ],
+        "note": "You acknowledge that cryptocurrency transactions are irreversible and that we have no control over the blockchain networks on which transactions are processed. We cannot cancel, reverse, or refund transactions once they have been broadcast to the network."
+      },
+      {
+        "title": "5. User Responsibilities",
+        "desc": "When using our Services, you agree to:",
+        "points": [
+          "Comply with all applicable laws and regulations",
+          "Secure your recovery phrase and private keys",
+          "Verify all transaction details before confirming",
+          "Maintain up-to-date software and firmware",
+          "Use the Services only for lawful purposes"
+        ],
+        "desc2": "You agree not to:",
+        "points2": [
+          "Use the Services for any illegal activities",
+          "Attempt to reverse-engineer or modify our software or hardware",
+          "Interfere with or disrupt the Services or servers",
+          "Circumvent any security features",
+          "Use the Services to harm others or their property"
+        ]
+      },
+      {
+        "title": "6. Fees and Payments",
+        "desc": " We charge fees for certain aspects of our Services, such as hardware wallet purchases and certain premium features. All fees are clearly disclosed before you complete a purchase or transaction.\n\n Blockchain network fees (such as gas fees on Ethereum) are determined by the respective blockchain networks and are not set by or paid to Omega Wallet. You are responsible for all network fees associated with your transactions."
+      },
+      {
+        "title": "7. Intellectual Property",
+        "desc": "All content, features, and functionality of our Services, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, data compilations, software, and the design, selection, and arrangement thereof, are owned by Omega Wallet, our licensors, or other providers of such material and are protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws. \n\n These Terms do not grant you any right, title, or interest in the Services or our content, nor any intellectual property rights except for the limited license to use the Services in accordance with these Terms."
+      },
+      {
+        "title": "8. Disclaimers and Limitations of Liability",
+        "highlight1": "THE SERVICES ARE PROVIDED 'AS IS' AND 'AS AVAILABLE' WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.",
+        "desc": "We do not guarantee that the Services will be uninterrupted, secure, or error-free.",
+        "highlight2": "TO THE FULLEST EXTENT PERMITTED BY LAW, OMEGA WALLET SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR THE SERVICES.",
+        "desc2": "We are not responsible for any loss of funds due to:",
+        "points2": [
+          "User error (such as sending to the wrong addresses)",
+          "Loss of recovery phrases or private keys",
+          "Unauthorized access to your device or account",
+          "Blockchain network issues or failures",
+          "Regulatory actions or changes in law"
+        ]
+      },
+      {
+        "title": "9. Indemnification",
+        "desc": "You agree to indemnify, defend, and hold harmless Omega Wallet and its officers, directors, employees, agents, and affiliates from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) that arise from or relate to: (a) your use of the Services; (b) your violation of these Terms; (c) your violation of any rights of any other person or entity; or (d) your violation of any laws or regulations."
+      },
+      {
+        "title": "10. Governing Law",
+        "desc": "These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law provisions. Any legal action or proceeding arising out of or relating to these Terms or the Services shall be brought exclusively in the federal or state courts located in San Francisco, California, and you consent to the personal jurisdiction of such courts."
+      },
+      {
+        "title": "11. Modifications to Terms",
+        "desc": "We reserve the right to modify these Terms at any time. If we make changes, we will provide notice by posting the updated Terms on our website and updating the 'Last Updated' date. Your continued use of the Services after such changes constitutes your acceptance of the new Terms."
+      },
+      {
+        "title": "12. Termination",
+        "desc": "We may terminate or suspend your access to the Services immediately, without prior notice or liability, for any reason, including if you breach these Terms. Upon termination, your right to use the Services will immediately cease."
+      },
+      {
+        "title": "13. Contact Us",
+        "desc": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "Email: dennis@omegawallet.shop",
+        "address": "Address: 123 Blockchain Street, San Francisco, CA 94103, United States",
+        "btn": "Contact Us →"
+      }
+    ]
+  },
+  "confirmation": {
+    "thankyou": "Thank you for your Purchase",
+    "time": "We've received your order and it will ship within 5 - 7 business days.",
+    "orderno": "Your order number is ",
+    "no": "#806T3.",
+    "summary": "Order Summary",
+    "backtohome": "Back to Home",
+    "subtotal": "Subtotal:",
+    "total": "Total:"
+  },
+  "error": {
+    "failed": "Failed to Checkout",
+    "desc": "Something went wrong while processing your request.\n Please refresh the page or try again later.",
+    "back": "Back to Home"
+  },
+  "shipping": {
+    "title": "Shipping Details",
+    "desc": "Fast, reliable, and secure delivery of your orders straight to your doorstep.",
+    "form": {
+      "selectShippingCountry": "Select Shipping Country",
+      "country": "Country:",
+      "selectCountry": "Select Country",
+      "shippingAddress": "Shipping Address",
+      "firstName": "First Name:",
+      "firstNamePlaceholder": "Enter first name",
+      "lastName": "Last Name:",
+      "lastNamePlaceholder": "Enter last name",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "Enter company name",
+      "phone": "Phone Number:",
+      "phonePlaceholder": "Enter Phone number",
+      "email": "Email Address:",
+      "emailPlaceholder": "Enter email address",
+      "address": "Address:",
+      "addressPlaceholder": "Enter address",
+      "city": "City:",
+      "cityPlaceholder": "Enter city",
+      "region": "Region:",
+      "reigonPlaceholder": "Enter region",
+      "postal": "Postal Code:",
+      "postalPlaceholder": "Enter postal Code"
+    },
+    "selector": {
+      "method": "Shipping Method",
+      "free": "Free Shipping",
+      "freeTime": "7 - 30 Business Days",
+      "regular": "Regular Shipping",
+      "regularTime": "7 - 14 Business Days",
+      "express": "Express Shipping",
+      "expresssTime": "4 - 7 Business Days"
+    },
+    "validation": {
+      "firstname": "First name is required",
+      "lastname": "Last name is required",
+      "country": "Select a valid country",
+      "companyName": "Company name is required",
+      "phone": "Phone number is required",
+      "shortphone": "Phone number is required",
+      "email": "Enter a valid email",
+      "address": "Address is required",
+      "city": "City is required",
+      "region": "Region/State is required",
+      "postal": "Postal/ZIP is required",
+      "wrongpostal": "Invalid postal/ZIP"
+    },
+    "order": "Your Order",
+    "qty": "Qty",
+    "price": "Price:",
+    "details": "Payment Details",
+    "total": "Total:",
+    "continue": "Continue to Payment",
+    "shippingFee": "Shipping Fee:",
+    "submitting": "Submitting"
+  },
+  "verifyEmail": {
+    "title": "Enter Your Email for tracking your order",
+    "desc": "Enter your email for verification, you will recieve an OTP on email",
+    "emailplaceholder": "Enter your Email",
+    "submit": "Submit",
+    "otpTitle": "Enter an OTP",
+    "otpDesc": "We sent a 6-digit code via email.Enter it below to continue",
+    "resendInfo": "Didn't recieve an email? \n You can resend in ",
+    "checkSpam": "Check your spam folder if you don’t see it.",
+    "resendNowPrefix": "Didn’t receive the email?",
+    "resendNow": "Resend now",
+    "verify": "Verify",
+    "changeEmail": "Change Email"
+  },
+  "tracking": {
+    "title": "Order History",
+    "desc": "View past orders with customer, product, date, and amount details.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "date": "Date Placed: ",
+    "orderId": "Order ID: ",
+    "btn": "Add Review"
+  }
+}

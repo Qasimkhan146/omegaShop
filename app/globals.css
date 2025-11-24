@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --primary-red: #e41c34;
+  --bg-black: #181818;
+  --border-gray: #eeeeee;
+  --light-black: rgba(24, 24, 24, 0.5);
+  --bg-red: #e41c341a;
+  --gray: #737373;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  background-color: white;
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 417px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero_div {
+    /* display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .asterik {
+    left: 235px;
+  }
+}
+@media (max-width: 374px) {
+  .asterik {
+    left: 170px; /* adjust horizontal placement */
+  }
+}
+
+@media (max-width: 675px) {
+  .packtext {
+    text-align: center;
+  }
+}
+@media (max-width: 675px) {
+  .pack {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 375px) {
+  .pack {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .customer-info {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,790 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Startseite", "href": "/" },
+      { "label": "Shop", "href": "/shop" },
+      { "label": "Support", "href": "/support" },
+      { "label": "FAQs", "href": "/faqs" },
+      { "label": "Melden Sie ein Problem", "href": "/#report" }
+    ],
+    "track": "Strecke",
+    "text": "Überprüfen und signieren Sie Transaktionen auf einem einzigen sicheren Bildschirm mit ",
+    "span": "OmegaShop"
+  },
+  "complaintModal": {
+    "title": "Melden Sie ein Problem mit Ihrem Produkt",
+    "subtitle": "Es tut uns leid, dass Sie ein Problem haben. Bitte füllen Sie das untenstehende Formular aus, wir helfen Ihnen weiter.",
+    "formTitle": "Beschwerdeformular",
+    "ComplaintForm": {
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "Vorname eingeben",
+      "lastName": "Nachname",
+      "lastNamePlaceholder": "Nachname eingeben",
+      "email": "E-Mail",
+      "emailPlaceholder": "E-Mail eingeben",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Telefonnummer eingeben",
+      "orderId": "Bestellnummer",
+      "orderIdPlaceholder": "Bestellnummer eingeben",
+      "productName": "Produktname",
+      "productNamePlaceholder": "Produktname eingeben",
+      "issueCategory": "Problemkategorie",
+      "description": "Beschreiben Sie Ihr Problem",
+      "descriptionPlaceholder": "Beschreiben Sie Ihr Problem",
+      "uploadImages": "Bild hochladen",
+      "attachImages": "Bilder anhängen",
+      "clickDrag": "Klicken Sie hier oder ziehen Sie Bilder per Drag & Drop",
+      "preferredSolution": "Bevorzugte Lösung",
+      "submit": "Beschwerde absenden",
+      "confirmation": "Nachdem Sie Ihre Beschwerde abgeschickt haben, erhalten Sie eine Bestätigungs-E-Mail. Unser Team wird Ihre Anfrage innerhalb von 24-48 Stunden prüfen und sich mit den nächsten Schritten bei Ihnen melden."
+    },
+    "categories": [
+      "Beschädigtes Produkt",
+      "Falscher Artikel erhalten",
+      "Fehlende Teile",
+      "Verspätete Lieferung",
+      "Qualitätsproblem",
+      "Andere"
+    ],
+    "solutions": ["Rückerstattung", "Ersatz", "Technischer Support", "Andere"],
+    "errors": {
+      "firstName": "Vorname ist erforderlich.",
+      "lastName": "Nachname ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "phoneRequired": "Telefonnummer ist erforderlich.",
+      "phoneInvalid": "Telefonnummer ist erforderlich.",
+      "orderId": "Bestellnummer ist erforderlich.",
+      "productName": "Produktname ist erforderlich.",
+      "description": "Bitte beschreiben Sie das Problem.",
+      "images": "Bitte laden Sie mindestens ein Bild hoch.",
+      "descriptionRequiredIfNoCategory": "Beschreibung ist erforderlich."
+    },
+    "toasts": {
+      "success": "Beschwerde erfolgreich eingereicht ✅",
+      "error": "Etwas ist schiefgelaufen ❌"
+    }
+  },
+  "hero": {
+    "preview": "Von über 50.000 Nutzern weltweit vertraut",
+    "titleStart": "Sichern Sie Ihre \n",
+    "titleEnd": "Krypto-Zukunft",
+    "desc": "Premium-Hardware-Wallets und Titan-Lösungen zur Wiederherstellung von Seed-Phrasen. Schützen Sie Ihre Kryptowährungen mit militärischer Sicherheit, ohne Kompromisse bei der Benutzerfreundlichkeit.",
+    "btn1": "Jetzt einkaufen",
+    "btn2": "Mehr erfahren",
+    "military": "Militärische",
+    "security": "Sicherheit",
+    "offline": "Offline",
+    "storage": "Speicherung"
+  },
+  "panel": {
+    "titleStart": "Sichern Sie Ihre Transaktionen physisch mit ",
+    "titleEnd": "Omega-Krypto-Wallets",
+    "desc": "Bewahren Sie Ihre privaten Schlüssel offline auf und bestätigen Sie jede Transaktion auf Ihrem sicheren Hardware-Gerät.",
+    "btn1": "Mehr erfahren"
+  },
+  "products": {
+    "sectionTitle": "Unsere Premium-Produkte",
+    "sectionSubtitle": "Komplette Sicherheitslösungen für Ihre Kryptowährungen",
+    "add": "In den Warenkorb",
+    "learn": "Mehr erfahren",
+    "added": "Produkt zum Warenkorb hinzugefügt",
+    "alreadyincart": "Produkt bereits im Warenkorb",
+    "included": "MwSt. inklusive",
+    "shipping": "Kostenloser weltweiter Versand",
+    "inStock": "Auf Lager",
+    "outstock": "Out of Stock",
+    "exceed": "Menge überschreitet den verfügbaren Bestand",
+    "products": [
+      {
+        "name": "Omega Hardware Wallet",
+        "badge": "Bestseller",
+        "description": "Bestätigen Sie Transaktionen auf einem sicheren Chip und halten Sie Ihre Schlüssel offline. Passt perfekt zum Omega Seed für langfristige Wiederherstellung.",
+        "features": [
+          "Unterstützt 1000+ Kryptowährungen",
+          "Schutz durch Secure-Element-Chip",
+          "PIN- & Passphrasenschutz",
+          "OLED-Display zur Verifikation"
+        ],
+        "image": "/images/product.svg"
+      },
+      {
+        "name": "Omega Seedphrase",
+        "badge": "Premium",
+        "description": "Titan-Wiederherstellungslösung für langfristigen Schutz Ihrer geheimen Recovery-Phrase. Unzerstörbare Sicherung für maximale Sicherheit.",
+        "features": [
+          "Feuer-, Wasser- & korrosionsbeständig",
+          "Titanhaltigkeit – keine Tinte, die verblasst",
+          "Vollständig offline Selbstverwahrung",
+          "Kompatibel mit Standard-BIP39-Phrasen"
+        ],
+        "image": "/images/product.svg",
+        "buttons": [
+          { "label": "In den Warenkorb", "type": "primary" },
+          { "label": "Mehr erfahren", "type": "secondary" }
+        ]
+      }
+    ],
+    "highlightSection": {
+      "image": "/images/product.svg",
+      "text": "Sichern Sie Ihre Transaktionen physisch mit \n",
+      "highlightText": "Omega-Krypto-Wallets",
+      "icon": "/images/empty-lock.svg"
+    }
+  },
+  "carousel": {
+    "title": "Tausende unterstützte Coins und Token",
+    "desc": "Bitcoin, Ethereum und über 1000 weitere Kryptowährungen werden unterstützt",
+    "description": "Omega unterstützt über 1.000 Assets. Hier sind einige der beliebtesten Netzwerke und Token.",
+    "btn1": "Alle anzeigen"
+  },
+  "WhyOmega": {
+    "title": "Warum Omega wählen?",
+    "desc": "Erweiterte Sicherheitsfunktionen, entwickelt für den modernen Krypto-Investor",
+    "WhyOmegaCards": [
+      {
+        "icon": "/images/shield.svg",
+        "heading": "Sicherheit auf Militärniveau",
+        "desc": "Erweiterte Verschlüsselung und Secure-Element-Technologie schützen Ihre Vermögenswerte vor jeder Bedrohung"
+      },
+      {
+        "icon": "/images/lock.svg",
+        "heading": "Komplette Offline-Speicherung",
+        "desc": "Bewahren Sie Ihre privaten Schlüssel vollständig offline und fern von Hackern auf"
+      },
+      {
+        "icon": "/images/flash.svg",
+        "heading": "Intuitive Benutzeroberfläche",
+        "desc": "Die intuitive Benutzeroberfläche macht die Verwaltung Ihrer Krypto einfach, sicher und stressfrei"
+      }
+    ]
+  },
+  "panel2": {
+    "frame": "Omega Recover",
+    "title": "Verlieren Sie niemals den Zugang zu Ihren digitalen Vermögenswerten",
+    "desc": "Sichern Sie sich Sorgenfreiheit mit Omega Recover. Stellen Sie den Zugang zu Ihrer Krypto-Wallet wieder her, falls Ihre geheime Wiederherstellungsphrase verloren, beschädigt oder nicht erreichbar ist.",
+    "btn1": "Mehr erfahren"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "desc": "Alles, was Sie über Omega-Produkte wissen müssen",
+    "items": [
+      {
+        "question": "Was ist eine Hardware-Wallet?",
+        "answer": "Eine Hardware-Wallet ist ein physisches Gerät, das Ihre privaten Kryptowährungsschlüssel offline speichert und so das höchste Maß an Sicherheit für Ihre digitalen Vermögenswerte bietet."
+      },
+      {
+        "question": "Wie stellen Sie die Genauigkeit und Sicherheit Ihrer KI-Modelle sicher?",
+        "answer": "Wir stellen Genauigkeit und Sicherheit sicher, indem wir auf vielfältigen Daten trainieren, strenge Schutzmaßnahmen anwenden und durch Tests sowie Feedback kontinuierlich verbessern."
+      },
+      {
+        "question": "Welche Kryptowährungen werden unterstützt?",
+        "answer": "Wir unterstützen die wichtigsten Kryptowährungen, darunter Bitcoin, Ethereum und andere weit verbreitete digitale Assets."
+      },
+      {
+        "question": "Ist meine Kryptowährung sicher, wenn ich meine Hardware-Wallet verliere?",
+        "answer": "Ja, Ihre Kryptowährung ist sicher, solange Sie Ihre Wiederherstellungsphrase haben, da Sie damit den Zugriff auf einer neuen Wallet wiederherstellen können."
+      },
+      {
+        "question": "Wie lange dauert der Versand?",
+        "answer": "Der Versand dauert in der Regel 3 bis 7 Werktage, abhängig von Ihrem Standort."
+      }
+    ],
+    "dicover": "Entdecken Sie, wie \n sich Sicherheit anfühlt",
+    "btn1": "Unsere Wallets shoppen"
+  },
+  "newsletter": {
+    "title": "Abonniere unseren Newsletter",
+    "desc": "Neue unterstützte Coins, Blog-Updates und exklusive Angebote direkt in deinem Posteingang",
+    "placeholder": "Gib deine E-Mail-Adresse ein",
+    "btn1": "Newsletter abonnieren",
+    "explaination": "Deine E-Mail-Adresse wird ausschließlich verwendet, um dir unseren Newsletter sowie Updates und Angebote zuzusenden. Du kannst dich jederzeit \n über den im Newsletter enthaltenen Link abmelden.",
+    "link": "Erfahre mehr darüber, wie wir deine Daten verwalten und deine Rechte schützen."
+  },
+  "footer": {
+    "description": "Sichere Kryptowährungs-Storage-Lösungen für den modernen Investor.",
+    "columns": [
+      {
+        "title": "PRODUKTE",
+        "links": [
+          { "label": "Seedphrase", "href": "/shop?id=2" },
+          { "label": "Hardware-Wallet", "href": "/shop?id=1" }
+        ]
+      },
+      {
+        "title": "RESSOURCEN",
+        "links": [
+          { "label": "Support", "href": "/support" },
+          { "label": "FAQ", "href": "/faqs" }
+        ]
+      },
+      {
+        "title": "UNTERNEHMEN",
+        "links": [
+          { "label": "Kontakt", "href": "/support#contact" },
+          { "label": "Datenschutzrichtlinie", "href": "/privacy-policy" },
+          { "label": "Nutzungsbedingungen", "href": "/terms-and-condition" }
+        ]
+      }
+    ],
+    "copyright": "Copyright © 2025 Omega Wallet. Alle Rechte vorbehalten."
+  },
+  "review": {
+    "titleStart": "Trete",
+    "titleSpan": "Omegas \n",
+    "titleEnd": "sicherem Ökosystem bei",
+    "trusted": "Von über 7 Millionen Kunden vertraut"
+  },
+  "shop": {
+    "section1": {
+      "bestSeller": "Bestseller",
+      "review": "(2.847 Bewertungen)",
+      "heading": "Omega Hardware Wallet",
+      "description": "Das ultimative Sicherheitsgerät für Kryptowährungen. Bestätigen Sie Transaktionen auf einem sicheren Element und halten Sie Ihre privaten Schlüssel vollständig offline. Militärische Schutzstandards für Ihre digitalen Vermögenswerte.",
+      "features": "Hauptmerkmale:",
+      "list": [
+        "Unterstützt über 1.000 Kryptowährungen und Token",
+        "Sicherer Element-Chip mit CC EAL5+ Zertifizierung",
+        "OLED-Display zur Transaktionsbestätigung",
+        "Kompatibel mit über 50 Wallet-Anwendungen"
+      ],
+      "price": "149,99 $",
+      "included": "MwSt. inklusive",
+      "shipping": "Kostenloser weltweiter Versand",
+      "inStock": "Auf Lager",
+      "outstock": "Nicht auf Lager",
+      "exceed": "Menge überschreitet den verfügbaren Bestand",
+      "cart": "In den Warenkorb",
+      "added": "Produkt zum Warenkorb hinzugefügt",
+      "alreadyincart": "Produkt bereits im Warenkorb"
+    },
+    "panel": {
+      "highlights": [
+        {
+          "value": "2 Jahre",
+          "label": "Garantie"
+        },
+        {
+          "value": "3–7 Tage",
+          "label": "Versand"
+        },
+        {
+          "value": "24/7",
+          "label": "Support"
+        }
+      ]
+    },
+    "details": {
+      "title": "Produktdetails",
+      "description": "Das Omega Hardware Wallet Standard bietet Cold-Storage-Sicherheit für deine digitalen Vermögenswerte.",
+      "tabs": [
+        {
+          "label": "Funktionen",
+          "content": [
+            "Cold-Storage-Sicherheit",
+            "Unterstützt 1000+ Kryptowährungen",
+            "PIN-Schutz mit Anti-Brute-Force",
+            "24-Wort-Wiederherstellungs phrase",
+            "USB-C-Konnektivität",
+            "Kompaktes und tragbares Design",
+            "Kostenloser weltweiter Versand",
+            "2 Jahre Garantie"
+          ]
+        },
+        {
+          "label": "Spezifikationen",
+          "content": [
+            {
+              "spec": "Abmessungen",
+              "value": "98 x 60 x 10 mm"
+            },
+            {
+              "spec": "Gewicht",
+              "value": "45 g"
+            },
+            {
+              "spec": "Display",
+              "value": "2,4\" OLED-Display"
+            },
+            {
+              "spec": "Konnektivität",
+              "value": "USB-C"
+            },
+            {
+              "spec": "Sicherheit",
+              "value": "CC EAL5+ zertifiziertes Sicherheitselement"
+            },
+            {
+              "spec": "Akku",
+              "value": "Eingebauter, wiederaufladbarer Akku"
+            },
+            {
+              "spec": "Kompatibilität",
+              "value": "Windows, macOS, Linux, Android, iOS"
+            },
+            {
+              "spec": "Garantie",
+              "value": "2 Jahre"
+            }
+          ]
+        }
+      ]
+    },
+    "backup": {
+      "title": "SLIP39 & die 3-2-1-Backup-Methode",
+      "desc": "Omega Seed unterstützt sowohl Standard-BIP39-Seeds als auch SLIP39-(Shamir)-Shares. Kombinieren Sie dies mit der 3-2-1-Regel für eine robuste Notfallwiederherstellung.",
+      "card1title": "Was ist SLIP39?",
+      "card1desc": "SLIP39 (Shamirs Secret-Sharing für Mnemonics) teilt Ihr Geheimnis in mehrere Anteile auf. Eine bestimmte Anzahl von Anteilen muss kombiniert werden, um die Wallet wiederherzustellen – z. B. 3 von 5.",
+      "list1": [
+        "Verteilen Sie die Anteile auf verschiedene Orte oder vertrauenswürdige Personen.",
+        "Der Verlust einiger Anteile gefährdet die Gelder nicht.",
+        "Bewahren Sie jeden Anteil auf einer separaten Omega-Seed-Platte auf."
+      ],
+      "card2title": "Die 3-2-1-Regel",
+      "list2": [
+        "Mindestens ein Backup wird extern aufbewahrt.",
+        "Auf mindestens zwei verschiedenen Medien oder an zwei verschiedenen Orten.",
+        "Bewahren Sie drei Backups auf (z. B. eine BIP39-Platte + zwei SLIP39-Anteile)."
+      ]
+    },
+    "section2": {
+      "title": "Omega Seedphrase erkunden",
+      "desc": "Vervollständigen Sie Ihr Setup mit unserer handgefertigten Lederhülle mit RFID-Blockierungstechnologie.",
+      "heading": "Omega Seedphrase",
+      "description": "Titanium-Wiederherstellungslösung für den langfristigen Schutz Ihrer Secret Recovery Phrase.",
+      "add": "In den Warenkorb",
+      "learn": "Mehr erfahren",
+      "details": [
+        {
+          "question": "Was ist eine Seed Phrase?",
+          "answer": "Eine Seed Phrase ist eine menschenlesbare Liste von 12-24 Wörtern, die das Hauptgeheimnis Ihrer Wallet kodiert. Mit diesen Wörtern können Sie alle privaten Schlüssel neu erstellen und den Zugriff auf Ihre Mittel wiederherstellen. Jeder, der die Phrase hat, kann Ihre Assets bewegen – bewahren Sie sie offline auf und teilen Sie sie niemals."
+        },
+        {
+          "question": "Wie funktioniert es mit Omega?",
+          "answer": "Ihr Omega Hardware Wallet generiert den Seed offline. Sie bestätigen und speichern ihn sicher. Wenn Sie jemals wiederherstellen müssen, geben Sie die Wörter in eine beliebige BIP39-kompatible Wallet (12/24 Wörter) ein, um den Zugriff wiederzuerlangen.",
+          "list": [
+            "Feuer-, Wasser- und Korrosionsbeständigkeit weit über Papier oder Kunststoff hinaus.",
+            "Titan-Haltbarkeit – keine verblassende Tinte, keine ausfallende Laminierung.",
+            "Vollständig offline Selbstverwahrung; keine Cloud- oder Online-Exposition.",
+            "Kompatibel mit standardmäßigen BIP39 12/24-Wort-Phrasen."
+          ]
+        }
+      ],
+      "buttons": [
+        { "label": "In den Warenkorb", "type": "primary" },
+        { "label": "Mehr erfahren", "type": "secondary" }
+      ]
+    }
+  },
+  "support": {
+    "title": "Wie können wir Ihnen helfen?",
+    "desc1": "Erhalten Sie die Unterstützung, die Sie für Ihre Omega-Produkte benötigen. Unser Expertenteam hilft Ihnen dabei, Ihre Kryptowährungen sicher zu verwahren.",
+    "SupportCards": [
+      {
+        "icon": "/images/lock.svg",
+        "heading": "E-Mail-Support",
+        "desc": "Senden Sie uns eine detaillierte Nachricht",
+        "timing": "Antwort innerhalb von 2 Stunden",
+        "btn": "E-Mail senden",
+        "url": "https://mail.google.com/mail/?view=cm&fs=1&to=abdulengineer321@gmail.com"
+      },
+      {
+        "icon": "/images/flash.svg",
+        "heading": "Telefon-Support",
+        "desc": "Sprechen Sie direkt mit unseren Experten",
+        "timing": "Mo-Fr 9:00-18:00 Uhr (EST)",
+        "btn": "Jetzt anrufen",
+        "url": "tel:+923065805864"
+      }
+    ],
+    "contact": "Kontaktieren Sie uns",
+    "desc2": "Sie haben nicht gefunden, wonach Sie suchen? Senden Sie uns eine Nachricht und wir melden uns bei Ihnen.",
+    "form": {
+      "getstarted": "Starten Sie noch heute",
+      "desc3": "Senden Sie uns eine Nachricht, und wir antworten innerhalb von 2 Stunden während der Geschäftszeiten.",
+      "name": "Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "subject": "Betreff",
+      "message": "Beschreiben Sie Ihr Anliegen",
+      "button": "Nachricht senden",
+      "toast": {
+        "sending": "Nachricht wird gesendet...",
+        "success": "Nachricht erfolgreich gesendet ✅",
+        "error": "Nachricht konnte nicht gesendet werden ❌",
+        "network": "Netzwerkfehler. Versuchen Sie es später erneut."
+      }
+    },
+    "dicover": "Entdecken Sie, wie \n sich Sicherheit anfühlt",
+    "btn1": "Unsere Wallets shoppen"
+  },
+  "faqPage": {
+    "heading": "Häufig gestellte Fragen",
+    "desc": "Alles, was Sie über Omega-Produkte wissen müssen",
+    "items": [
+      {
+        "question": "Was ist eine Hardware-Wallet?",
+        "answer": "Eine Hardware-Wallet ist ein physisches Gerät, das Ihre privaten Kryptowährungs-Schlüssel offline speichert und so den höchsten Sicherheitsstandard für Ihre digitalen Vermögenswerte bietet."
+      },
+      {
+        "question": "Wie stellen Sie die Genauigkeit und Sicherheit Ihrer KI-Modelle sicher?",
+        "answer": "Wir gewährleisten Genauigkeit und Sicherheit durch Training mit vielfältigen Daten, strenge Schutzmaßnahmen und kontinuierliche Verbesserung durch Tests und Feedback."
+      },
+      {
+        "question": "Welche Kryptowährungen werden unterstützt?",
+        "answer": "Wir unterstützen wichtige Kryptowährungen, darunter Bitcoin, Ethereum und andere weit verbreitete digitale Vermögenswerte."
+      },
+      {
+        "question": "Ist mein Krypto sicher, wenn ich meine Hardware-Wallet verliere?",
+        "answer": "Ja, Ihr Krypto ist sicher, solange Sie Ihre Wiederherstellungsphrase besitzen, da Sie den Zugriff auf einer neuen Wallet wiederherstellen können."
+      },
+      {
+        "question": "Wie lange dauert der Versand?",
+        "answer": "Der Versand dauert in der Regel 3 bis 7 Werktage, abhängig von Ihrem Standort."
+      },
+      {
+        "question": "Wie stellen Sie die Genauigkeit und Sicherheit Ihrer KI-Modelle sicher?",
+        "answer": "Wir gewährleisten Genauigkeit und Sicherheit durch Training mit vielfältigen Daten, strenge Schutzmaßnahmen und kontinuierliche Verbesserung durch Tests und Feedback."
+      },
+      {
+        "question": "Welche Kryptowährungen werden unterstützt?",
+        "answer": "Wir unterstützen wichtige Kryptowährungen, darunter Bitcoin, Ethereum und andere weit verbreitete digitale Vermögenswerte."
+      },
+      {
+        "question": "Ist mein Krypto sicher, wenn ich meine Hardware-Wallet verliere?",
+        "answer": "Ja, Ihr Krypto ist sicher, solange Sie Ihre Wiederherstellungsphrase besitzen, da Sie den Zugriff auf einer neuen Wallet wiederherstellen können."
+      },
+      {
+        "question": "Wie lange dauert der Versand?",
+        "answer": "Der Versand dauert in der Regel 3 bis 7 Werktage, abhängig von Ihrem Standort."
+      },
+      {
+        "question": "Wie stellen Sie die Genauigkeit und Sicherheit Ihrer KI-Modelle sicher?",
+        "answer": "Wir gewährleisten Genauigkeit und Sicherheit durch Training mit vielfältigen Daten, strenge Schutzmaßnahmen und kontinuierliche Verbesserung durch Tests und Feedback."
+      },
+      {
+        "question": "Welche Kryptowährungen werden unterstützt?",
+        "answer": "Wir unterstützen wichtige Kryptowährungen, darunter Bitcoin, Ethereum und andere weit verbreitete digitale Vermögenswerte."
+      },
+      {
+        "question": "Ist mein Krypto sicher, wenn ich meine Hardware-Wallet verliere?",
+        "answer": "Ja, Ihr Krypto ist sicher, solange Sie Ihre Wiederherstellungsphrase besitzen, da Sie den Zugriff auf einer neuen Wallet wiederherstellen können."
+      },
+      {
+        "question": "Wie lange dauert der Versand?",
+        "answer": "Der Versand dauert in der Regel 3 bis 7 Werktage, abhängig von Ihrem Standort."
+      }
+    ],
+    "dicover": "Entdecken Sie, wie sich \n Sicherheit anfühlt",
+    "btn1": "Unsere Wallets kaufen"
+  },
+  "schema": {
+    "name": "Name ist erforderlich",
+    "email": "Ungültige E-Mail-Adresse",
+    "phone": "Telefonnummer ist erforderlich",
+    "subject": "Betreff ist erforderlich",
+    "message": "Nachricht ist erforderlich"
+  },
+  "cart": {
+    "title": "Einkaufswagen",
+    "empty": "Dein Warenkorb ist leer",
+    "add": "Füge einige Produkte hinzu, um zu starten",
+    "continue": "Weiter einkaufen",
+    "checkout": "Zur Kasse gehen",
+    "discount": "Rabatt",
+    "subtotal": "Zwischensumme:",
+    "total": "Gesamt:",
+    "price": "Preis:",
+    "final": "Endpreis:",
+    "discounts": "Rabatt:",
+    "clear": "Warenkorb leeren",
+    "shipping": "Kostenloser weltweiter Versand für alle Bestellungen",
+    "exceed": "Menge überschreitet den verfügbaren Bestand"
+  },
+  "privacyPolicy": {
+    "heading": "Datenschutzerklarung",
+    "description": "Wie wir Ihre Daten erheben, verwenden und schützen.",
+    "publishedDate": "Zuletzt aktualisiert: 14. April 2023",
+    "sections": [
+      {
+        "title": "Einleitung",
+        "desc": "Omega Wallet („wir“, „unser“ oder „uns“) verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Datenschutzerklärung erklärt, wie wir Ihre Daten erheben, verwenden, offenlegen und schützen, wenn Sie unsere Software-Wallet, Hardware-Wallet, Website oder andere damit verbundene Dienste (zusammen die „Dienste“) nutzen. \n\n Bitte lesen Sie diese Datenschutzerklärung sorgfältig durch. Durch den Zugriff auf unsere Dienste oder deren Nutzung bestätigen Sie, dass Sie diese Datenschutzerklärung gelesen, verstanden haben und an alle Bestimmungen dieser Datenschutzerklärung gebunden sind."
+      },
+      {
+        "title": "Von uns erhobene Daten",
+        "categories": {
+          "Persönliche Daten": {
+            "desc": "Wir können personenbezogene Daten erheben, die Sie uns freiwillig zur Verfügung stellen, wenn Sie:",
+            "points": [
+              "Ein Konto registrieren",
+              "Sich für unseren Newsletter anmelden",
+              "Unser Support-Team kontaktieren",
+              "An Aktionen oder Umfragen teilnehmen",
+              "Einen Kauf tätigen"
+            ],
+            "note": "Diese Daten können Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer, Postadresse und Zahlungsinformationen umfassen."
+          },
+          "Nicht-Personenbezogene Daten": {
+            "desc": "Wir können auch nicht-personenbezogene Daten über Ihre Interaktion mit unseren Diensten erheben, einschließlich:",
+            "points": [
+              "Geräteinformationen (Typ, Betriebssystem, Browser)",
+              "IP-Adresse",
+              "Nutzungsdaten (besuchte Seiten, verbrachte Zeit)",
+              "Verweisquellen"
+            ]
+          },
+          "Wie wir Ihre Daten verwenden": {
+            "desc": "Wir können die erhobenen Daten für verschiedene Zwecke verwenden, einschließlich:",
+            "points": [
+              "Bereitstellung, Wartung und Verbesserung unserer Dienste",
+              "Verarbeitung von Transaktionen und Versenden relevanter Informationen",
+              "Versenden von administrativen Informationen wie Updates oder Sicherheitswarnungen",
+              "Beantwortung Ihrer Kommentare, Fragen und Anfragen",
+              "Versand von Werbeinformationen, wie Sonderangebote oder Newsletter",
+              "Überwachung und Analyse von Trends, Nutzung und Aktivitäten",
+              "Erkennung, Verhinderung und Behebung technischer Probleme",
+              "Schutz vor betrügerischen, unbefugten oder illegalen Aktivitäten"
+            ]
+          },
+          "Wallet-Datenschutz und Kryptowährungstransaktionen": [
+            "Omega Wallet ist mit Blick auf Ihre Privatsphäre konzipiert. Wir haben keinen Zugriff auf Ihre privaten Schlüssel, Wiederherstellungsphrasen oder die Möglichkeit, Transaktionen in Ihrem Namen durchzuführen. Ihre privaten Schlüssel werden lokal auf Ihrem Gerät (für Software-Wallets) oder auf dem sicheren Element Ihrer Hardware-Wallet gespeichert. \n\n Während Blockchain-Transaktionen öffentlich sichtbar sind, erheben oder speichern wir keine Daten, die Ihre Identität mit Ihren Blockchain-Adressen verknüpfen, es sei denn, Sie stellen uns diese Informationen ausdrücklich zur Verfügung."
+          ],
+          "Cookies und Tracking-Technologien": [
+            "Wir verwenden Cookies und ähnliche Tracking-Technologien, um Aktivitäten auf unserer Website zu verfolgen und bestimmte Informationen zu speichern. Cookies sind Dateien mit einer kleinen Datenmenge, die eine anonyme eindeutige Kennung enthalten können. \n\n Sie können Ihren Browser so einstellen, dass er alle Cookies ablehnt oder anzeigt, wenn ein Cookie gesendet wird. Wenn Sie Cookies jedoch nicht akzeptieren, können Sie möglicherweise einige Teile unserer Dienste nicht nutzen."
+          ],
+          "Disclosure of Your Information": {
+            "desc": "Wir können Ihre Informationen in den folgenden Situationen offenlegen:",
+            "points": [
+              "Dienstleister: Wir können Ihre Informationen mit Drittanbietern, Dienstleistern und anderen Geschäftspartnern teilen, die Dienstleistungen in unserem Auftrag erbringen.",
+              "Unternehmensübertragungen: Wenn wir an einer Fusion, Übernahme oder dem Verkauf von allen oder einem Teil unserer Vermögenswerte beteiligt sind, können Ihre Informationen im Rahmen dieser Transaktion übertragen werden.",
+              "Gesetzliche Anforderungen: Wir können Ihre Informationen offenlegen, wenn wir gesetzlich dazu verpflichtet sind oder auf berechtigte Anfragen von Behörden reagieren müssen.",
+              "Schutz von Rechten: Wir können Ihre Informationen offenlegen, um unsere Rechte, unser Eigentum oder unsere Sicherheit sowie die unserer Nutzer oder Dritter zu schützen und zu verteidigen."
+            ]
+          },
+          "Datensicherheit": [
+            "Wir setzen geeignete technische und organisatorische Maßnahmen ein, um die Sicherheit Ihrer personenbezogenen Daten zu schützen. Bitte beachten Sie jedoch, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode zu 100 % sicher ist."
+          ],
+          "Ihre Rechte": {
+            "desc": "Je nach Ihrem Standort haben Sie möglicherweise bestimmte Rechte in Bezug auf Ihre personenbezogenen Daten, einschließlich:",
+            "points": [
+              "Das Recht auf Zugang zu den personenbezogenen Daten, die wir über Sie haben",
+              "Das Recht auf Berichtigung unrichtiger Daten",
+              "Das Recht auf Löschung Ihrer personenbezogenen Daten",
+              "Das Recht, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen oder diese einzuschränken",
+              "Das Recht auf Datenübertragbarkeit",
+              "Das Recht, Ihre Einwilligung zu widerrufen"
+            ],
+            "note": "Um diese Rechte auszuüben, kontaktieren Sie uns bitte über die im Abschnitt „Kontakt“ angegebenen Informationen."
+          },
+          "Datenschutz für Kinder": [
+            "Unsere Dienste sind nicht für Personen unter 18 Jahren bestimmt. Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter 18 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte."
+          ],
+          "Änderungen dieser Datenschutzerklärung": [
+            "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen und das Datum „Zuletzt aktualisiert“ aktualisieren. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen."
+          ]
+        }
+      },
+      {
+        "title": "Kontaktieren Sie uns",
+        "desc": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail: dennis@omegawallet.shop",
+        "address": "Adresse: 123 Blockchain Street, San Francisco, CA 94103, Vereinigte Staaten",
+        "btn": "Kontaktieren Sie uns →"
+      }
+    ]
+  },
+  "termsAndCondition": {
+    "heading": "Nutzungsbedingungen",
+    "description": "Die Regeln und Richtlinien für die Nutzung von Omega Wallet",
+    "publishedDate": "Zuletzt aktualisiert: 14. April 2023",
+    "sections": [
+      {
+        "title": "1. Einführung und Zustimmung",
+        "desc": "Willkommen bei Omega Wallet. Diese Nutzungsbedingungen ('Bedingungen') regeln Ihren Zugriff auf und die Nutzung der Omega Wallet Softwareanwendung, Hardwaregeräte, Website und damit verbundenen Dienstleistungen (zusammenfassend die 'Dienste'), die von Omega Wallet ('wir', 'uns' oder 'unser') bereitgestellt werden. \n\nDurch den Zugriff auf oder die Nutzung unserer Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, dürfen Sie die Dienste nicht nutzen."
+      },
+      {
+        "title": "2. Berechtigung",
+        "desc": "Sie müssen mindestens 18 Jahre alt sein, um unsere Dienste nutzen zu können. Durch die Nutzung unserer Dienste versichern und gewährleisten Sie, dass Sie diese Voraussetzung erfüllen und dass Sie das Recht, die Befugnis und die Fähigkeit haben, diese Bedingungen einzugehen. \n\nWenn Sie die Dienste im Namen einer juristischen Person, Organisation oder eines Unternehmens nutzen, versichern und gewährleisten Sie, dass Sie befugt sind, diese Organisation an diese Bedingungen zu binden, und dass Sie sich verpflichten, diese Bedingungen im Namen dieser Organisation einzuhalten."
+      },
+      {
+        "title": "3. Kontoregistrierung und Sicherheit",
+        "desc": "Einige Funktionen unserer Dienste erfordern möglicherweise die Registrierung eines Kontos. Wenn Sie sich registrieren, erklären Sie sich damit einverstanden, genaue, aktuelle und vollständige Informationen anzugeben und diese Informationen zu aktualisieren, um ihre Richtigkeit zu gewährleisten. \n\nSie sind für die Geheimhaltung Ihrer Kontodaten, einschließlich Ihres Passworts und Ihrer Wiederherstellungsphrase, verantwortlich. Sie erklären sich damit einverstanden, Ihre Kontodaten nicht an Dritte weiterzugeben. Sie sind allein verantwortlich für alle Aktivitäten, die unter Ihrem Konto stattfinden. \n\nSie müssen uns unverzüglich über eine unbefugte Nutzung Ihres Kontos oder eine andere Sicherheitsverletzung informieren. Wir können und werden nicht für Verluste oder Schäden haftbar gemacht, die sich aus Ihrer Nichteinhaltung dieser Anforderungen ergeben."
+      },
+      {
+        "title": "4. Wallet-Dienste",
+        "desc": "Omega Wallet bietet Software- und Hardware-Wallet-Lösungen zum Speichern, Senden und Empfangen von Kryptowährungen. Unsere Dienste ermöglichen es Ihnen:",
+        "points": [
+          "Kryptowährungs-Wallets erstellen und verwalten",
+          "Private Schlüssel sicher speichern",
+          "Kryptowährungstransaktionen senden und empfangen",
+          "Transaktionsverlauf und Kontostände anzeigen",
+          "Kryptowährungen tauschen (wo verfügbar)"
+        ],
+        "note": "Sie erkennen an, dass Kryptowährungstransaktionen irreversibel sind und dass wir keine Kontrolle über die Blockchain-Netzwerke haben, auf denen Transaktionen verarbeitet werden. Wir können Transaktionen, die einmal ins Netzwerk übertragen wurden, nicht stornieren, rückgängig machen oder erstatten."
+      },
+      {
+        "title": "5. Benutzerpflichten",
+        "desc": "Bei der Nutzung unserer Dienste stimmen Sie Folgendem zu:",
+        "points": [
+          "Alle geltenden Gesetze und Vorschriften einzuhalten",
+          "Ihre Wiederherstellungsphrase und privaten Schlüssel zu sichern",
+          "Alle Transaktionsdetails vor der Bestätigung zu überprüfen",
+          "Software und Firmware stets aktuell zu halten",
+          "Die Dienste nur für rechtmäßige Zwecke zu verwenden"
+        ],
+        "desc2": "Sie verpflichten sich, Folgendes zu unterlassen:",
+        "points2": [
+          "Die Dienste für illegale Aktivitäten zu nutzen",
+          "Zu versuchen, unsere Software oder Hardware zurückzuentwickeln oder zu modifizieren",
+          "Die Dienste oder Server zu stören oder zu unterbrechen",
+          "Sicherheitsfunktionen zu umgehen",
+          "Die Dienste zu verwenden, um anderen oder deren Eigentum Schaden zuzufügen"
+        ]
+      },
+      {
+        "title": "6. Gebühren und Zahlungen",
+        "desc": "Wir berechnen Gebühren für bestimmte Aspekte unserer Dienste, wie z. B. den Kauf von Hardware-Wallets und bestimmte Premium-Funktionen. Alle Gebühren werden deutlich angezeigt, bevor Sie einen Kauf oder eine Transaktion abschließen. \n\nBlockchain-Netzwerkgebühren (z. B. Gasgebühren bei Ethereum) werden von den jeweiligen Blockchain-Netzwerken festgelegt und nicht von Omega Wallet erhoben oder bezahlt. Sie sind für alle mit Ihren Transaktionen verbundenen Netzwerkgebühren verantwortlich."
+      },
+      {
+        "title": "7. Geistiges Eigentum",
+        "desc": "Alle Inhalte, Funktionen und Merkmale unserer Dienste, einschließlich, aber nicht beschränkt auf Texte, Grafiken, Logos, Symbole, Bilder, Audioclips, digitale Downloads, Datensammlungen, Software sowie Design, Auswahl und Anordnung dieser Inhalte, sind Eigentum von Omega Wallet, unseren Lizenzgebern oder anderen Anbietern solcher Materialien und durch Urheberrecht, Markenrecht, Patentrecht, Geschäftsgeheimnisse und andere Rechte an geistigem Eigentum oder Eigentumsrechte geschützt. \n\nDiese Bedingungen gewähren Ihnen keinerlei Rechte, Titel oder Ansprüche an den Diensten oder unseren Inhalten noch an geistigen Eigentumsrechten, außer der eingeschränkten Lizenz zur Nutzung der Dienste gemäß diesen Bedingungen."
+      },
+      {
+        "title": "8. Haftungsausschlüsse und Haftungsbeschränkungen",
+        "highlight1": "DIE DIENSTE WERDEN \"WIE BESEHEN\" UND \"WIE VERFÜGBAR\" BEREITGESTELLT, OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNGEN.",
+        "desc": "Wir garantieren nicht, dass die Dienste ununterbrochen, sicher oder fehlerfrei sind.",
+        "highlight2": "SOWEIT GESETZLICH ZULÄSSIG, HAFTET OMEGA WALLET NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, EINSCHLIESSLICH ENTGANGENER GEWINNE, DATEN ODER NUTZUNG, DIE SICH AUS ODER IM ZUSAMMENHANG MIT DIESEN BEDINGUNGEN ODER DEN DIENSTEN ERGEBEN.",
+        "desc2": "Wir sind nicht verantwortlich für den Verlust von Geldern aufgrund von:",
+        "points2": [
+          "Benutzerfehlern (z. B. Senden an falsche Adressen)",
+          "Verlust von Wiederherstellungsphrasen oder privaten Schlüsseln",
+          "Unbefugtem Zugriff auf Ihr Gerät oder Konto",
+          "Problemen oder Ausfällen des Blockchain-Netzwerks",
+          "Regulierungsmaßnahmen oder Gesetzesänderungen"
+        ]
+      },
+      {
+        "title": "9. Freistellung",
+        "desc": "Sie erklären sich damit einverstanden, Omega Wallet sowie dessen Geschäftsführer, Direktoren, Mitarbeiter, Vertreter und Partner schadlos zu halten und gegen alle Ansprüche, Verbindlichkeiten, Schäden, Verluste, Kosten, Ausgaben oder Gebühren (einschließlich angemessener Anwaltsgebühren) zu verteidigen, die sich ergeben aus oder im Zusammenhang stehen mit: (a) Ihrer Nutzung der Dienste; (b) Ihrem Verstoß gegen diese Bedingungen; (c) Ihrer Verletzung der Rechte Dritter; oder (d) Ihrem Verstoß gegen geltende Gesetze oder Vorschriften."
+      },
+      {
+        "title": "10. Anwendbares Recht",
+        "desc": "Diese Bedingungen unterliegen den Gesetzen des Bundesstaates Kalifornien und werden in Übereinstimmung mit diesen ausgelegt, ungeachtet etwaiger kollisionsrechtlicher Bestimmungen. Alle rechtlichen Schritte oder Verfahren, die sich aus oder im Zusammenhang mit diesen Bedingungen oder den Diensten ergeben, werden ausschließlich vor den Bundes- oder Staatsgerichten in San Francisco, Kalifornien, geführt, und Sie erklären sich mit der persönlichen Zuständigkeit dieser Gerichte einverstanden."
+      },
+      {
+        "title": "11. Änderungen der Bedingungen",
+        "desc": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Wenn wir Änderungen vornehmen, werden wir Sie durch die Veröffentlichung der aktualisierten Bedingungen auf unserer Website und die Aktualisierung des Datums 'Zuletzt aktualisiert' informieren. Ihre fortgesetzte Nutzung der Dienste nach solchen Änderungen stellt Ihre Zustimmung zu den neuen Bedingungen dar."
+      },
+      {
+        "title": "12. Kündigung",
+        "desc": "Wir können Ihren Zugriff auf die Dienste jederzeit und ohne vorherige Ankündigung oder Haftung aus beliebigem Grund beenden oder aussetzen, einschließlich, aber nicht beschränkt auf, wenn Sie gegen diese Bedingungen verstoßen. Nach der Kündigung endet Ihr Recht zur Nutzung der Dienste sofort."
+      },
+      {
+        "title": "13. Kontakt",
+        "desc": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail: dennis@omegawallet.shop",
+        "address": "Adresse: 123 Blockchain Street, San Francisco, CA 94103, Vereinigte Staaten",
+        "btn": "Kontaktieren Sie uns →"
+      }
+    ]
+  },
+  "confirmation": {
+    "thankyou": "Vielen Dank für Ihren Einkauf",
+    "time": "Wir haben Ihre Bestellung erhalten und sie wird innerhalb von 5 - 7 Werktagen versendet.",
+    "orderno": "Ihre Bestellnummer lautet ",
+    "no": "#806T3.",
+    "summary": "Bestellübersicht",
+    "backtohome": "Zurück zur Startseite",
+    "subtotal": "Zwischensumme:",
+    "total": "Gesamt:"
+  },
+  "error": {
+    "failed": "Bezahlvorgang fehlgeschlagen",
+    "desc": "Something went wrong while processing your request.\n Please refresh the page or try again later.",
+    "back": "Zurück zur Startseite"
+  },
+  "shipping": {
+    "title": "Versanddetails",
+    "desc": "Schnelle, zuverlässige und sichere Lieferung Ihrer Bestellungen direkt bis vor Ihre Haustür.",
+    "form": {
+      "selectShippingCountry": "Versandland auswählen",
+      "country": "Land",
+      "selectCountry": "Land auswählen",
+      "shippingAddress": "Lieferadresse",
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "Vorname eingeben",
+      "lastName": "Nachname",
+      "companyName": "Firmenname",
+      "companyNamePlaceholder": "Firma eingeben",
+      "lastNamePlaceholder": "Nachname eingeben",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Telefonnummer eingeben",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "E-Mail-Adresse eingeben",
+      "address": "Adresse",
+      "addressPlaceholder": "Adresse eingeben",
+      "city": "Stadt",
+      "cityPlaceholder": "Stadt eingeben",
+      "region": "Region",
+      "reigonPlaceholder": "Region eingeben",
+      "postal": "Postleitzahl",
+      "postalPlaceholder": "Postleitzahl eingeben"
+    },
+    "selector": {
+      "method": "Versandmethode",
+      "free": "Kostenloser Versand",
+      "freeTime": "7 - 30 Werktage",
+      "regular": "Standardversand",
+      "regularTime": "7 - 14 Werktage",
+      "express": "Expressversand",
+      "expresssTime": "4 - 7 Werktage"
+    },
+    "validation": {
+      "firstname": "Vorname ist erforderlich",
+      "lastname": "Nachname ist erforderlich",
+      "companyName": "Firmenname ist erforderlich",
+      "country": "Wählen Sie ein gültiges Land aus",
+      "phone": "Telefonnummer ist erforderlich",
+      "shortphone": "Telefonnummer ist erforderlich",
+      "email": "Geben Sie eine gültige E-Mail-Adresse ein",
+      "address": "Adresse ist erforderlich",
+      "city": "Stadt ist erforderlich",
+      "region": "Region/Bundesland ist erforderlich",
+      "postal": "Postleitzahl ist erforderlich",
+      "wrongpostal": "Ungültige Postleitzahl"
+    },
+    "order": "Ihre Bestellung",
+    "qty": "Menge",
+    "price": "Preis:",
+    "details": "Zahlungsdetails",
+    "total": "Gesamt:",
+    "continue": "Weiter zur Zahlung",
+    "shippingFee": "Versandkosten:",
+    "submitting": "Übermitteln"
+  },
+  "verifyEmail": {
+    "title": "Geben Sie Ihre E-Mail ein, um Ihre Bestellung zu verfolgen",
+    "desc": "Geben Sie Ihre E-Mail zur Verifizierung ein. Sie erhalten einen OTP-Code per E-Mail.",
+    "emailplaceholder": "E-Mail eingeben",
+    "submit": "Absenden",
+    "otpTitle": "OTP eingeben",
+    "otpDesc": "Wir haben einen 6-stelligen Code per E-Mail gesendet. Geben Sie ihn unten ein, um fortzufahren.",
+    "resendInfo": "Keine E-Mail erhalten?\n Sie können in ",
+    "checkSpam": "Überprüfen Sie Ihren Spam-Ordner, falls Sie nichts sehen.",
+    "resendNowPrefix": "Keine E-Mail erhalten?",
+    "resendNow": "Jetzt erneut senden",
+    "verify": "Verifizieren",
+    "changeEmail": "E-Mail ändern"
+  },
+  "tracking": {
+    "title": "Bestellverlauf",
+    "desc": "Frühere Bestellungen mit Kunden-, Produkt-, Datums- und Betragsdetails anzeigen.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "address": "Adresse",
+    "date": "Bestelldatum: ",
+    "orderId": "Bestellnummer: ",
+    "btn": "Bewertung hinzufügen"
+  }
+}
